@@ -1,0 +1,622 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content>
+    <meta name="description" content>
+    <meta name="robots" content="all">
+    <meta name="author" content="lishanyu">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <title>IQOOZ6 产品详情首页</title>
+
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+    <link href="static/css/public.css" rel="stylesheet">
+    <script src="static/js/flexible.js"></script>
+
+
+
+    <script src="static/lib/jquery.min.3.3.1.js"></script>
+
+    <script src="static/js/public_api.js"></script>
+    <script src="static/js/public.js"></script>
+
+
+    <link rel="stylesheet" href="static/lib/swiper/swiper.4.3.2.min.css">
+
+    <script>var globalVar = {}; globalVar.userAgent = navigator.userAgent.toLowerCase(), globalVar.isApp = /VivoExSpace/i.test(globalVar.userAgent), globalVar.countryId = "en", globalVar.versionNumber = ""; var globalAPI = {setCookie: function (e, o, a, n) {var t = ""; a && (t += ";expires=" + new Date((new Date).getTime() + 36e5 * a).toGMTString()), n && (t += ";domain=" + n), document.cookie = e + "=" + escape(o) + t + ";path=/"}, getCookie: function (e) {var o = "", a = e + "="; if (0 < document.cookie.length) {var n = document.cookie.indexOf(a); if (-1 != n) {n += a.length; var t = document.cookie.indexOf(";", n); -1 == t && (t = document.cookie.length), o = unescape(document.cookie.substring(n, t))} } return o}}</script>
+
+    <script src="static/lib/swiper/swiper.4.3.2.min.js"></script>
+
+    <script src="static/js/product/product-del.js"></script>
+    <link href="static/css/product/product-del.css" rel="stylesheet">
+
+
+    <link href="static/css/product/product-del.css" rel="stylesheet">
+
+    <script>var IMAGE_HOST = "./", VIVO_WEB_HOST = "https://www.vivo.com.cn"</script>
+</head>
+
+<body class="public_whitebg">
+
+    <nav id="header">
+        <div class="vep-head vep-public vep-responsive">
+            <div class="vep-head-common">
+                <div class="vep-head-bg">
+                    <div class="vep-head-container">
+                        <ul class="vep-head-btn">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <div class="vep-head-logo">
+                            <a href="//www.vivo.com/in" class="vep-head-logo-link">
+                                <svg viewbox="0 0 3912 1024" xmlns="http://www.w3.org/2000/svg"
+                                    class="vep-head-logo-small">
+                                    <g id="vivo_logo">
+                                        <path
+                                            d="m3522.471385 853.333333h-336.436513c-189.111795 0-205.929026-155.871179-205.929026-203.487179s16.817231-203.48718 205.929026-203.48718h336.436513c189.124923 0 205.942153 155.87118 205.942153 203.48718s-16.81723 203.487179-205.942153 203.487179m7.31241-577.641025h-337.92c-351.179487 0-382.424616 286.588718-382.424616 374.153846s31.245129 374.153846 382.424616 374.153846h337.92c351.192615 0 382.424615-286.588718 382.424615-374.153846s-31.232-374.153846-382.424615-374.153846" />
+                                        <path
+                                            d="m2741.894564 301.948718h-109.554872c-46.920205 0-56.582564 7.890051-74.67323 34.382769-18.116923 26.47959-331.460923 498.372923-331.460924 498.372923-10.003692 14.506667-20.611282 20.374974-33.792 20.374975-13.193846 0-23.788308-5.868308-33.778871-20.374975 0 0-313.370256-471.893333-331.474052-498.372923-18.090666-26.505846-27.753025-34.382769-74.67323-34.382769h-109.554872c-25.206154 0-36.758974 19.442872-20.900103 43.191795l374.258872 560.548102c58.066051 84.256821 100.680205 118.311385 196.122256 118.311385s138.056205-34.054564 196.135385-118.311385l374.245744-560.548102c15.858872-23.748923 4.332308-43.191795-20.900103-43.191795m-1442.198974 45.778051c0-32.794256 12.8-45.778051 45.108513-45.778051h80.462769c32.295385 0 45.095385 12.996923 45.095384 45.778051v630.482052c0 32.794256-12.8 45.791179-45.095384 45.791179h-80.462769c-32.295385 0-45.108513-12.996923-45.108513-45.791179zm-6.721641-199.771897c-26.046359-26.033231-26.046359-46.683897 0-72.730257l55.676718-55.676718c26.046359-26.059487 46.697026-26.059487 72.743384-.013128l55.702975 55.676718c26.033231 26.059487 26.033231 46.710154 0 72.756513l-55.702975 55.676718c-26.046359 26.046359-46.697026 26.046359-72.730256 0l-55.689846-55.676718zm-166.439385 153.993846h-109.436718c-46.867692 0-56.530051 7.903179-74.594461 34.382769-18.090667 26.47959-331.11959 498.359795-331.11959 498.359795-9.977436 14.506667-20.571897 20.374974-33.739487 20.374974-13.193846 0-23.775179-5.868308-33.765744-20.374974 0 0-313.028923-471.893333-331.093333-498.372923-18.06441-26.466462-27.726769-34.369641-74.594462-34.369641h-109.436718c-28.120615 0-36.719589 19.442872-20.873846 43.191795 15.819487 23.762051 373.838769 560.534974 373.838769 560.534974 58.013539 84.269949 100.601436 118.324513 195.925334 118.324513 95.310769 0 137.911795-34.054564 195.912205-118.324513l373.851897-560.534974c15.832615-23.748923 7.246769-43.191795-20.873846-43.191795" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="vep-head-menu" id="J_dataMenuViewStat" data-view-stat="cfrom=1002">
+                            <a class="vep-head-nav" data-nav-home href="//www.vivo.com/in">Home</a>
+                            <a class="vep-head-nav" data-nav-products href="//www.vivo.com/in/products">Products</a>
+                            <a class="vep-head-nav J-vep-switch" data-nav-e-store
+                                data-href="//shop.vivo.com/in/?utm_source=vivoWebsite&utm_medium=topmenu_estore&utm_campaign=vivo_estore&cid=vivoWebsite_topmenu_estore"
+                                href="//mshop.vivo.com/in/?utm_source=vivoWebsite&utm_medium=topmenu_estore&utm_campaign=vivo_estore&cid=vivoWebsite_topmenu_estore">E-Store</a>
+                            <a class="vep-head-nav" data-nav-retailers href="//www.vivo.com/in/where-to-buy">Retail
+                                Stores</a>
+                            <a class="vep-head-nav" data-nav-support href="//www.vivo.com/in/support">Support</a>
+                            <a class="vep-head-nav" data-nav-funtouch-os href="//www.vivo.com/in/funtouch">Funtouch
+                                OS</a>
+                            <a class="vep-head-nav" data-nav-about-vivo href="//www.vivo.com/in/about-vivo">About
+                                vivo</a>
+                            <a class="vep-head-nav vep-head-search">
+                                <i class="vep-head-search-icon vicon-search"></i>
+                                Search
+                            </a>
+                        </div>
+                        <div class="vep-head-glass vicon-search"></div>
+                        <div class="vep-head-close vicon-close"></div>
+                        <div class="vep-head-personal">
+                            <div class="vep-head-personal-icon vicon-personal"></div>
+                            <ul class="vep-head-personal-box">
+                                <li class="vep-head-li">
+                                    <a class="vep-head-cart J-vep-switch" data-href="//shop.vivo.com/in/cart/list"
+                                        href="//mshop.vivo.com/in/cart/list">
+                                        <i class="vep-head-li-icon vep-head-li-cart vicon-cart"></i>
+                                        <p class="vep-head-li-txt">Cart
+                                            <span class="vep-head-li-num vep-hide"></span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="vep-head-li">
+                                    <a class="vep-head-order J-vep-switch" data-href="//shop.vivo.com/in/my/order/list"
+                                        href="//mshop.vivo.com/in/my/order/list">
+                                        <i class="vep-head-li-icon vep-head-li-order vicon-order"></i>
+                                        <p class="vep-head-li-txt">My Orders</p>
+                                    </a>
+                                </li>
+                                <li class="vep-head-li vep-head-register-li">
+                                    <a class="vep-head-register vep-head-account">
+                                        <i class="vep-head-li-icon vep-head-li-signin vicon-personal"></i>
+                                        <p class="vep-head-li-txt">Sign in/Register</p>
+                                    </a>
+                                </li>
+                                <li class="vep-head-li vep-head-account-li">
+                                    <a class="vep-head-account" target="_blank">
+                                        <i class="vep-head-li-icon vep-head-li-account vicon-setting"></i>
+                                        <p class="vep-head-li-txt">My Account</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="vep-head-search-box vep-hide">
+                            <div class="vep-head-search-input">
+                                <input class="vep-head-input" type="text">
+                            </div>
+                            <div class="vep-head-search-sub"></div>
+                        </div>
+                        <div class="vep-head-shade vep-hide"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="public pro_del-title-bg-po">
+
+        <div class="pro_del-title-bg">
+            <div class="container pro_del-title clearafter">
+                <div class="arr public_position-center"></div>
+                <h1 class="no-flip-over">IQOOZ6</h1>
+                <a class="product-buy-button no-flip-over" href="#">Buy-now</a>
+                <div class="pro-del-box">
+                    <ul class="pro-del-box-list">
+                        <li class="pro-del-box-button active no-flip-over" data-local-overview><a href="#">Overview</a>
+                        </li>
+                        <li class="pro-del-box-button no-flip-over" data-local-gallery>Gallery</li>
+                        <li class="pro-del-box-button no-flip-over" data-local-parameter><a href="#">Parameter</a></li>
+                    </ul>
+                    <div class="pro-del-opa"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="J_replace_content">
+
+        <link rel="stylesheet" href="./zip/css/app.css">
+
+        <div id="z6-product-wrap" class="product-z6-wrapper">
+
+            <div class="product-z6-kv">
+                <figure class="product-z6-kv-img image-lazy"></figure>
+            </div>
+
+            <div class="product-z6-topreason">
+                <div class="product-z6-topreason-wrap" fade-in>
+                    <div class="topreason-container-left">
+                        <div class="topreason-container-top topreason-block topreason-block-display">
+                            <p>6.44" AMOLED Display</p>
+                            <figure class="topreason-display-img image-lazy"></figure>
+                        </div>
+                        <div class="topreason-container-bottom">
+                            <div class="topreason-container-left topreason-block topreason-block-ram">
+                                <p>8GB + 4GB<br />Extended RAM 2.0</p>
+                                <figure class="topreason-ram-img image-lazy"></figure>
+                            </div>
+                            <div class="topreason-container-right">
+                                <div class="topreason-container-top topreason-block topreason-block-cpu">
+                                    <p>Snapdragon® 778G 5G<br />Mobile Platform</p>
+                                    <figure class="topreason-cpu-img image-lazy"></figure>
+                                </div>
+                                <div class="topreason-container-bottom topreason-block topreason-block-cool">
+                                    <p>Flagship VC Liquid Cooling</p>
+                                    <figure class="topreason-cool-img image-lazy"></figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="topreason-container-right topreson-mb-row">
+                        <div class="topreason-container-top topreason-block topreason-block-flashcharge">
+                            <p>66W FlashCharge</p>
+                            <figure class="topreason-flashcharge-img image-lazy"></figure>
+                        </div>
+                        <div class="topreason-container-bottom topreason-block topreason-block-camera">
+                            <p>64MP Main Camera</p>
+                            <figure class="topreason-camera-img image-lazy"></figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-z6-topreason-wrap product-z6-topreason-wrap--mobile" fade-in>
+                    <div class="topreason-block topreason-block-cpu">
+                        <p>Snapdragon® 778G 5G<br />Mobile Platform</p>
+                        <figure class="topreason-cpu-img image-lazy"></figure>
+                    </div>
+                    <div class="topreson-block-wrap">
+                        <div class="topreason-block topreason-block-ram">
+                            <p>8GB + 4GB<br />Extended RAM 2.0</p>
+                            <figure class="topreason-ram-img image-lazy"></figure>
+                        </div>
+                        <div class="topreason-block topreason-block-flashcharge">
+                            <p>66W FlashCharge</p>
+                            <figure class="topreason-flashcharge-img image-lazy"></figure>
+                        </div>
+                    </div>
+                    <div class="topreason-block topreason-block-display">
+                        <p>6.44" AMOLED Display</p>
+                        <figure class="topreason-display-img image-lazy"></figure>
+                    </div>
+                    <div class="topreson-block-wrap">
+                        <div class="topreason-block topreason-block-cool">
+                            <p>Flagship VC Liquid Cooling</p>
+                            <figure class="topreason-cool-img image-lazy"></figure>
+                        </div>
+                        <div class="topreason-block topreason-block-camera">
+                            <p>64MP Main Camera</p>
+                            <figure class="topreason-camera-img image-lazy"></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-z6-title product-z6-title-performance" fade-in-mid>
+                <figure class="title-performance-img image-lazy"></figure>
+            </div>
+
+            <div class="product-z6-performance">
+                <div class="product-z6-gb-title" fade-in>
+                    <h3><strong>Snapdragon®  778G  5G</strong> Mobile Platform</h3>
+                    <h4>Performance overloaded</h4>
+                    <p>Snapdragon® 778G comes with octa-core processor that adopts the 6nm process and Kryo 670 architecture. Snapdragon 778G 5G <br />provides fast and efficient game experience and maintain high visual fidelity without consuming battery life.</p>
+                </div>
+                <div class="performance-bg fade" fade-in-mid>
+                    <figure class="performance-bg-img image-lazy"></figure>
+                </div>
+                <div class="performance-box-wrap">
+                    <div class="performance-box image-lazy" transform>
+                        <div class="performance-increace">
+                            <div class="increase-percent">
+                                <span class="percent cpu-perform-percent image-lazy">0%</span>
+                                <span class="percent-desc">CPUperformance</span>
+                            </div>
+                            <div class="increase-display">
+                                <span class="increase-display-new image-lazy"></span>
+                                <span class="increase-display-old image-lazy"></span>
+                            </div>
+                        </div>
+                        <div class="performance-increace">
+                            <div class="increase-percent">
+                                <span class="percent gpu-perform-percent image-lazy">0%</span>
+                                <span class="percent-desc">GPUperformance</span>
+                            </div>
+                            <div class="increase-display">
+                                <span class="increase-display-new image-lazy"></span>
+                                <span class="increase-display-old image-lazy"></span>
+                            </div>
+                        </div>
+
+                        <div class="other-performance">
+                            <div class="other-perform-block antutu-score image-lazy">
+                                <span class="block-icon image-lazy"></span>
+                                <div class="block-text">
+                                    530000+<br />
+                                    AnTuTu score
+                                </div>
+                            </div>
+                            <div class="other-perform-block nm-process image-lazy">
+                                <span class="block-icon image-lazy"></span>
+                                <div class="block-text">
+                                    6nm Process<br />
+                                    Technology
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-z6-flashcharge">
+                <div class="product-z6-gb-title align-left" fade-in>
+                    <h3><strong>66W</strong>  FlashCharge</h3>
+                    <h4>Get ready in no time</h4>
+                    <p>66W FlashCharge can charge quickly providing a 50% charge in just xx mins and a complete 100% in just xx mins. <br />Further, Z6 Pro comes with large 4700mAh battery capacity for the full day usage.</p>
+                </div>
+                <div class="flashcharge-bg" fade-in-mid>
+                    <figure class="flashcharge-bg-img image-lazy"></figure>
+                </div>
+            
+            </div>
+
+            <div class="product-z6-ram">
+                <div class="product-z6-gb-title align-left" fade-in>
+                    <h3><strong>Extended </strong>RAM <strong>2.0</strong></h3>
+                    <h4>8GB + 4GB* Extended RAM</h4>
+                    <p>Extended RAM 2.0 technology can add up to 4GB to the existing 8GB or 6GB RAM that can allow you to expand storage of up to 12GB or <br />8GB respectively. You’ll be able to quickly switch between different apps and enjoy smooth operation even with multiple apps running in <br />the background.</p>
+                </div>
+                <div class="ram-bg" fade-in-mid>
+                    <figure class="ram-bg-img image-lazy"></figure>
+                </div>
+            
+            </div>
+
+            <div class="product-z6-display">
+                <div class="product-z6-gb-title align-left" fade-in>
+                    <h3><strong>6.44 AMOLED </strong>Display</h3>
+                    <h4>Utterly Smooth</h4>
+                    <p>Z6 Pro display provides immersive visual experience with true color contrast and a peak brightness of 1300 nits. HDR10+ <br />helps in providing right color tone mapping for each scene. The display offers 90Hz refersh rate and 180Hz Touch <br />Sampling Rate for a smooth touch response.</p>
+                </div>
+                <div class="display-bg" fade-in-mid>
+                    <figure class="display-bg-img image-lazy"></figure>
+                </div>
+
+                <div class="display-params-wrap">
+                    <div class="display-params" transform>
+                        <div class="param-wrap" fade-in>
+                            <div class="param-item">
+                                <span class="param-icon param-icon1 image-lazy"></span>
+                                <span class="param-text">16.35 cm (6.44)<br />Full HD+</span>
+                            </div>
+                            <div class="param-item">
+                                <span class="param-icon param-icon2 image-lazy"></span>
+                                <span class="param-text">HDR10+</span>
+                            </div>
+                        </div>
+                        <div class="param-wrap" fade-in>
+                            <div class="param-item">
+                                <span class="param-icon param-icon3 image-lazy"></span>
+                                <span class="param-text">SGS Eye Care <br />Display Certification</span>
+                            </div>
+                            <div class="param-item">
+                                <span class="param-icon param-icon4 image-lazy"></span>
+                                <span class="param-text">1300 nits peak <br />brightness</span>
+                            </div>
+                        </div>
+                        <div class="param-wrap" fade-in>
+                            <div class="param-item">
+                                <span class="param-icon param-icon5 image-lazy"></span>
+                                <span class="param-text">SGS Seamless <br />Certification</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+            <div class="product-z6-title product-z6-title-gaming" fade-in-mid>
+                <figure class="title-gaming-img image-lazy"></figure>
+            </div>
+
+            <div class="product-z6-cooling">
+                <div class="product-z6-gb-title align-left" fade-in>
+                    <h3><strong>Flagship VC </strong>Liquid Cooling</h3>
+                    <h4>Keeps it Cool..!!</h4>
+                    <p>Liquid Cooling system intelligently sense the heat source and adapt the optimal cooling solution, thereby effectively cool <br />down the phone and reduce the CPU temperature by 12 degrees. </p>
+                
+                    <div class="cooling-descs">
+                        <div class="cooling-desc">
+                            <span class="cooling-icon cooling-icon1 image-lazy"></span>
+                            <span class="cooling-text">Large 2100mm2 Vapor Chamber</span>
+                        </div>
+                        <div class="cooling-desc">
+                            <span class="cooling-icon cooling-icon2 image-lazy"></span>
+                            <span class="cooling-text">8 components based efficient cooling system</span>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="cooling-bg" fade-in-mid>
+                    <figure class="cooling-bg-img image-lazy"></figure>
+                </div>
+            
+            </div>
+
+            <div class="product-z6-game-vibration">
+                <div class="product-z6-gb-title align-left" fade-in>
+                    <h3><strong>4D Game Vibration </strong><br />with <strong>Linear Motor</strong></h3>
+                    <p>Equipped with Z-axis linear motor, the 4D game vibration identify the scene intelligently and provide specific vibration <br />experience (like the gun shot) and more ultimate and comprehensive game experience to the players</p>
+                </div>
+
+                <div class="game-vibration-bg" fade-in-mid>
+                    <figure class="game-vibration-bg-img image-lazy"></figure>
+                </div>
+            
+            </div>
+
+            <div class="product-z6-game-mode">
+                <div class="product-z6-gb-title align-left" fade-in>
+                    <h3><strong>Ultra Game </strong>Mode</h3>
+                    <p>The experience of the sidebar of the Ultra Game Mode is optimized. Before and after gameplay, the optimization of the <br />Ultra Game Mode is more intuitively presented in the form of data, including CPU, GPU, memory, battery etc. Now, <br />switch between three modes according to your usage.</p>
+                </div>
+
+                <div class="game-mode-bg" fade-in-mid>
+                    <figure class="game-mode-bg-img image-lazy">
+                        <canvas id="game-mode-canvas" width="1200" height="600"></canvas>
+                    </figure>
+                </div>
+            
+            </div>
+
+            <div class="product-z6-color">
+                <div class="z6-color-bg-z" fade-in>
+                    <figure class="z6-color-bg-z-img image-lazy"></figure>
+                </div>
+                <div class="z6-color-product" fade-in>
+                    <figure class="z6-color-product-img image-lazy"></figure>
+                </div>
+                <div class="z6-color-desc z6-color-blue" fade-in>
+                    <h3>LEGION  SKY</h3>
+                    <p>Color that signifies the euphoria of getting together with your squads and exploring the immersive open-worlds and the thrill in conquering them.</p>
+                    <div class="color-circle"></div>
+                </div>
+                <div class="z6-color-desc z6-color-black" fade-in>
+                    <h3>PHANTOM DUSK</h3>
+                    <p>Color that fuels endurance during intense times to alert the senses, overcome the panic and burst through the unknown.</p>
+                    <div class="color-circle"></div>
+                </div>
+            </div>
+
+            <div class="product-z6-title product-z6-title-camera" fade-in-mid>
+                <figure class="title-camera-img image-lazy"></figure>
+            </div>
+            
+
+            <div class="product-z6-camera">
+                <div class="product-z6-gb-title align-left" fade-in>
+                    <h3><strong>64MP Main camera </strong>Stay Clear</h3>
+                    <p>Equipped with 64MP triple camera system, it provides a truly versatile photography <br />experience for all the scenarios.</p>
+                </div>
+
+                <div class="camera-bg" fade-in-mid>
+                    <figure class="camera-bg-img image-lazy"></figure>
+
+                    <div class="camera-bg-descs" transform>
+                        <div class="camera-bg-desc camera-bg-desc1">
+                            <div class="desc-text">
+                                8MP 120o  <br />
+                                Wide-angle camera
+                            </div>
+                            <div class="desc-line">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                                    <polyline points="420,92 328,0 0,0" style="fill:none;stroke:#9a9a9a;stroke-width:2" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="camera-bg-desc camera-bg-desc2">
+                            <div class="desc-text">
+                                Macro camera 4cm 
+                            </div>
+                            <div class="desc-line">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                                    <polyline points="391,101 280,0 0,0" style="fill:none;stroke:#9a9a9a;stroke-width:2" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+            <div class="product-z6-camera-performance">
+                <div class="camera-performance-wrap camera-night-mode">
+                    <div class="night-mode-picture" fade-in>
+                        <figure class="night-mode-picture-img image-lazy"></figure>
+                    </div>
+                    <div class="camera-performance-text" fade-in>
+                        <h3>Super Night Mode</h3>
+                        <p>More light for better photos and <br />videos</p>
+                    </div>
+                </div>
+                <div class="camera-performance-wrap camera-video">
+                    <div class="video-picture">
+                        <figure class="video-picture-img image-lazy" fade-in></figure>
+                        <div class="camera-performance-text" fade-in>
+                            <h3>Retro Movie video filter</h3>
+                            <p>Sharper, more detailed photos and videos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="camera-performance-wrap camera-video-pro">
+                    <div class="camera-performance-text" fade-in>
+                        <h3>Shot on Z6 Pro</h3>
+                    </div>
+                    <div class="video-pro-picture" fade-in>
+                        <figure class="video-pro-picture-img image-lazy"></figure>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-z6-all-detail">
+                <p>
+                    Disclaimers:<br />
+                    1. CPU & GPU performance comapared to Snapdragon® 768G.<br />
+                    2. AnTuTu benchmark has been tested on 9.2.8 version for 8+128GB version.<br />
+                    3. Snapdragon is a product of Qualcomm technologies, Inc. and/or its subsidiaries.<br />
+                    4. Charging Data has been tested in iQOO lab<br />
+                    5. V2.0 is an upgrade on V1.0 and supports 8GB + 4GB, 6GB + 2GB through software<br />
+                    6. The data on the cooling of core temperature is from the laboratory test results and is for reference only. Actual data might vary depending on the ambient temperature and usage habits.<br />
+                    4.The product pictures and features shown are for reference only; the images shown on the display screen are simulated, and for demonstration purposes only. Please take actual products as standard.<br />
+                    5. All data is based on our technical design parameters, laboratory test results and supplier test data. Actual performance may vary depending on software version, specific test environment and phone model. All comparisons shown on this page refer to iQOO products only.<br />
+                    6. As some specifications, parameters, or parts of the product may vary due to supplier change or different production batches, iQOO may update the descriptions on this page accordingly without giving any prior notice. Please read this page carefully before use.
+                </p>
+            </div>
+            
+
+
+
+        </div>
+        <script src="./zip/js/anime.min.js"></script>
+        <script src="./zip/js/canvas-video-player.js"></script>
+        <script src="./zip/js/app.js"></script>
+    </div>
+
+
+    <footer id="footer">
+        <div id="vivo-foot-wrap" class="vivo-foot-wrap">
+            <div id="vivo-foot-path" class="public container common_crumb clearafter">
+                <a class="common_crumb-icon no-flip-over" href="/en" style="margin-top:-7px">vivo</a>
+                <p></p>
+                <a class="no-flip-over" href="#">Products</a>
+                <p></p>
+                <a class="no-flip-over" href="#">IQOOZ6</a>
+            </div>
+            <div class="vep-foot vep-public vep-responsive">
+                <div class="vep-foot-common">
+                    <div class="vep-foot-category">
+                        <div class="vep-foot-category-top vep-clearfix">
+                            <ul class="vep-foot-category-ul vep-left">
+                                <li class="vep-left" data-view-stat="cfrom=1007&module=Popular Links">
+                                    <dl class="vep-foot-category-dl">
+                                        <dt class="vep-foot-category-dt">Popular Links</dt>
+                                        <dd><a href="#">V17</a></dd>
+                                        <dd><a href="#">S1 Pro</a></dd>
+                                        <dd><a href="#">Y19</a></dd>
+                                        <dd><a href="#">Y11</a></dd>
+                                        <dd><a href="#">All Models</a></dd>
+                                        <dd><a href="#">Retail Stores</a></dd>
+                                    </dl>
+                                </li>
+                                <li class="vep-left" data-view-stat="cfrom=1007&module=Support">
+                                    <dl class="vep-foot-category-dl">
+                                        <dt class="vep-foot-category-dt">Support</dt>
+                                        <dd><a href="#">FAQs</a></dd>
+                                        <dd><a href="#">Service Center</a></dd>
+                                        <dd><a href="#">Funtouch OS</a></dd>
+                                        <dd><a href="#">System Update</a></dd>
+                                        <dd><a href="#">Query of Spare Parts Price </a></dd>
+                                        <dd><a href="#">IMEI Authentication</a></dd>
+                                        <dd><a href="#">Security Advisory</a></dd>
+                                    </dl>
+                                </li>
+                                <li class="vep-left" data-view-stat="cfrom=1007&module=About vivo">
+                                    <dl class="vep-foot-category-dl">
+                                        <dt class="vep-foot-category-dt">About vivo</dt>
+                                        <dd><a href="#">Info</a></dd>
+                                        <dd><a href="#">Press</a></dd>
+                                        <dd><a href="#">Careers at vivo</a></dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <div class="vep-foot-msg">
+                                <div class="vep-foot-msg-box">
+                                    <p class="vep-foot-p">vivo Customer Care</p>
+                                    <a class="vep-foot-l vep-foot-email" data-href="service.global@vivo.com">
+                                        <i class="vep-foot-icon-email vicon-email"></i>
+                                        Email Us
+                                    </a>
+                                </div>
+                                <div class="vep-foot-msg-box">
+                                    <p class="vep-foot-p">Follow us</p>
+                                    <div class="vep-foot-icon clearfix">
+                                        <a href="https://www.facebook.com/vivoglobal/" target="_blank"
+                                            class="vep-foot-msg-icon" data-title="facebook">
+                                            <i class="vep-foot-facebook-icon"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com/vivo_global/" target="_blank"
+                                            class="vep-foot-msg-icon" data-title="instagram">
+                                            <i class="vep-foot-instagram-icon"></i>
+                                        </a>
+                                        <a href="https://www.youtube.com/channel/UCcjTYjZnQcPavBHkzhWdkWg"
+                                            target="_blank" class="vep-foot-msg-icon" data-title="youtube">
+                                            <i class="vep-foot-youtube-icon"></i>
+                                        </a>
+                                        <a href="https://www.linkedin.com/company/vivo-smartphone" target="_blank"
+                                            class="vep-foot-msg-icon" data-title="linkedin">
+                                            <i class="vep-foot-linkedin-icon"></i>
+                                        </a>
+                                        <i class="vep-foot-vkontakte-icon"></i>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vep-foot-category-btm vep-clearfix">
+                            <a class="vep-left" href="#">Privacy Policy</a>
+                            <a class="vep-left" href="#">Terms of Use</a>
+                            <a class="vep-left" href="#">Warranty Terms</a>
+                            <a class="vep-foot-global" href="#">Global-English</a>
+                        </div>
+                    </div>
+                    <div class="vep-foot-copyright">Copyright © 2020 vivo Mobile Communication Co., Ltd. All rights
+                        reserved.</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
