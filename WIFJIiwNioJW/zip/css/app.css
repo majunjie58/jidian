@@ -279,7 +279,7 @@
 }
 
 .performance-bg{
-  height: 640px;
+  height: 740px;
   z-index: 1;
   position: relative;
 }
@@ -287,15 +287,15 @@
 .performance-bg-img{
   background-image: url(../img/img_qualomm_cpu.jpg);
   background-repeat: no-repeat;
-  -o-background-size: 1556px auto;
-     background-size: 1556px auto;
+  -o-background-size: 1692px auto;
+     background-size: 1692px auto;
   background-position: center center;
   width: 100%;
-  height: 730px;
+  height: 923px;
 }
 
 .performance-bg .performance-bg-img{
-  margin-top: -67px;
+  margin-top: -185px;
 }
 
 .performance-box-wrap{
@@ -469,9 +469,6 @@
   margin-bottom: 120px;
 }
 
-.flashcharge-bg{
-}
-
 .flashcharge-bg-img{
   background-image: url(../img/img_phone_flashcharge.jpg);
   background-repeat: no-repeat;
@@ -479,12 +476,11 @@
      background-size: 1200px auto;
   background-position: center center;
   width: 100%;
-  height: 1012px;
-  margin-top: -200px;
+  height: 1052px;
 }
 
 .flashcharge-bg .flashcharge-bg-img{
-  margin-top: -170px;
+  margin-top: -190px;
 }
 
 /* ram */
@@ -902,7 +898,7 @@
 /* camera */
 
 .product-z6-camera{
-  margin-bottom: 80px;
+  margin-bottom: 160px;
 }
 
 .camera-bg-img{
@@ -974,8 +970,12 @@
   margin-bottom: 80px;
 }
 
+.product-z6-camera-performance .product-z6-gb-title h3{
+  margin-bottom: 90px;
+}
+
 .camera-performance-wrap{
-  width: 1000px;
+  width: 990px;
   margin: 0 auto;
   display: -webkit-box;
   display: -webkit-flex;
@@ -987,50 +987,53 @@
 .night-mode-picture-img{
   background-image: url(../img/img_nightmode_shot.jpg);
   background-repeat: no-repeat;
-  -o-background-size: 571px 719px;
-     background-size: 571px 719px;
+  -o-background-size: 660px 880px;
+     background-size: 660px 880px;
   background-position: center center;
-  width: 571px;
-  height: 719px;
+  width: 660px;
+  height: 880px;
 }
 
 .camera-performance-text{
   color: #fff;
 }
 
+.camera-performance-text strong{
+  color: #FF9E00;
+}
+
 .camera-night-mode .camera-performance-text{
-  margin-left: 30px;
-  padding-top: 250px;
+  margin-left: 50px;
+  padding-top: 273px;
+}
+
+.video-pro-picture{
+  margin-bottom: 20px;
 }
 
 .camera-performance-text h3{
-  font-size: 40px;
+  font-size: 48px;
   font-family: Unitext;
   font-weight: bold;
   margin-bottom: 15px;
-  line-height: 1;
-}
-
-.camera-performance-text p{
-  font-size: 24px;
-  color: #c5c5c5;
-  font-family: UnitextSemi;
-  font-weight: bold;
   line-height: 1.4;
 }
 
 .video-picture-img{
   background-image: url(../img/img_retromovie_shot.jpg);
   background-repeat: no-repeat;
-  -o-background-size: 741px 419px;
-     background-size: 741px 419px;
+  -o-background-size: 792px 594px;
+     background-size: 792px 594px;
   background-position: center center;
-  width: 741px;
-  height: 419px;
+  width: 792px;
+  height: 594px;
 }
 
 .video-picture .video-picture-img{
-  margin-top: -30px;
+  margin-top: -40px;
+  border-radius: 18px;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .camera-video{
@@ -1046,11 +1049,6 @@
      -moz-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  margin-bottom: 100px;
-}
-
-.camera-video .camera-performance-text{
-  padding: 48px 0 0 10px;
 }
 
 .camera-video-pro{
@@ -1063,22 +1061,28 @@
           flex-direction: column;
 }
 
-.camera-video-pro .camera-performance-text{
-  margin: 0 auto;
+.camera-video .camera-performance-text h3, .camera-video-pro .camera-performance-text h3{
+  margin-bottom: 80px;
 }
 
-.camera-video-pro .camera-performance-text h3{
-  margin-bottom: 30px;
-}
-
-.video-pro-picture-img{
+.video-pro-picture-img1{
   background-image: url(../img/img_shot_shot.jpg);
   background-repeat: no-repeat;
-  -o-background-size: 1000px 554px;
-     background-size: 1000px 554px;
+  -o-background-size: 990px 745px;
+     background-size: 990px 745px;
   background-position: center center;
-  width: 1000px;
-  height: 554px;
+  width: 990px;
+  height: 745px;
+}
+
+.video-pro-picture-img2{
+  background-image: url(../img/img_shot_shot1.jpg);
+  background-repeat: no-repeat;
+  -o-background-size: 990px 742px;
+     background-size: 990px 742px;
+  background-position: center center;
+  width: 990px;
+  height: 742px;
 }
 
 /* detail */
@@ -1243,8 +1247,12 @@
     background-image: url(../img/img_retromovie_shot_2x.jpg);
   }
 
-  .video-pro-picture-img{
+  .video-pro-picture-img1{
     background-image: url(../img/img_shot_shot_2x.jpg);
+  }
+
+  .video-pro-picture-img2{
+    background-image: url(../img/img_shot_shot1_2x.jpg);
   }
 
 }
@@ -1338,17 +1346,17 @@
   }
 
   .performance-bg{
-    height: 853px;
+    height: 986px;
   }
 
   .performance-bg-img{
-    height: 973px;
-    -o-background-size: 2074px auto;
-       background-size: 2074px auto;
+    height: 1230px;
+    -o-background-size: 2256px auto;
+       background-size: 2256px auto;
   }
 
   .performance-bg .performance-bg-img{
-    margin-top: -89px;
+    margin-top: -246px;
   }
 
   .performance-box{
@@ -1423,12 +1431,11 @@
   .flashcharge-bg-img{
     -o-background-size: 1600px auto;
        background-size: 1600px auto;
-    height: 1349px;
-    margin-top: -266px;
+    height: 1403px;
   }
 
   .flashcharge-bg .flashcharge-bg-img{
-    margin-top: -226px;
+    margin-top: -253px;
   }
 
   /* ram */
@@ -1650,7 +1657,7 @@
 
   /* camera */
   .product-z6-camera{
-    margin-bottom: 106px;
+    margin-bottom: 212px;
   }
 
   .product-z6-camera .product-z6-gb-title h3{
@@ -1701,50 +1708,59 @@
   .product-z6-camera-performance{
     margin-bottom: 106px;
   }
+
+  .product-z6-camera-performance .product-z6-gb-title h3{
+    margin-bottom: 120px;
+  }
   .camera-performance-wrap{
-    width: 1333px;
+    width: 1320px;
   }
   .night-mode-picture-img{
-    -o-background-size: 761px auto;
-       background-size: 761px auto;
-    width: 761px;
-    height: 958px;
+    -o-background-size: 880px auto;
+       background-size: 880px auto;
+    width: 880px;
+    height: 1174px;
   }
   .camera-night-mode .camera-performance-text{
-    margin-left: 40px;
-    padding-top: 333px;
+    margin-left: 67px;
+    padding-top: 364px;
+  }
+  .video-pro-picture{
+    margin-bottom: 27px;
   }
   .camera-performance-text h3{
-    font-size: 53px;
+    font-size: 64px;
     margin-bottom: 20px;
   }
-  .camera-performance-text p{
-    font-size: 32px;
-  }
   .video-picture-img{
-    -o-background-size: 988px auto;
-       background-size: 988px auto;
-    width: 988px;
-    height: 558px;
+    -o-background-size: 1056px auto;
+       background-size: 1056px auto;
+    width: 1056px;
+    height: 792px;
   }
 
   .video-picture .video-picture-img{
-    margin-top: -40px;
+    margin-top: -54px;
+    border-radius: 24px;
+    margin-bottom: 27px;
   }
 
-  .camera-video .camera-performance-text{
-    padding: 64px 0 0 13px;
+  .camera-video .camera-performance-text h3, .camera-video-pro .camera-performance-text h3{
+    margin-bottom: 107px;
   }
 
-  .camera-video-pro .camera-performance-text h3{
-    margin-bottom: 40px;
+  .video-pro-picture-img1{
+    -o-background-size: 1320px auto;
+       background-size: 1320px auto;
+    width: 1320px;
+    height: 994px;
   }
 
-  .video-pro-picture-img{
-    -o-background-size: 1333px auto;
-       background-size: 1333px auto;
-    width: 1333px;
-    height: 738px;
+  .video-pro-picture-img2{
+    -o-background-size: 1320px auto;
+       background-size: 1320px auto;
+    width: 1320px;
+    height: 990px;
   }
 
   /* detail */
@@ -1847,17 +1863,17 @@
   }
 
   .performance-bg{
-    height: 480px;
+    height: 555px;
   }
 
   .performance-bg-img{
-    height: 548px;
-    -o-background-size: 1152px auto;
-       background-size: 1152px auto;
+    height: 692px;
+    -o-background-size: 1269px auto;
+       background-size: 1269px auto;
   }
 
   .performance-bg .performance-bg-img{
-    margin-top: -50px;
+    margin-top: -138px;
   }
 
   .performance-box{
@@ -1932,12 +1948,11 @@
   .flashcharge-bg-img{
     -o-background-size: 900px auto;
        background-size: 900px auto;
-    height: 759px;
-    margin-top: -150px;
+    height: 789px;
   }
 
   .flashcharge-bg .flashcharge-bg-img{
-    margin-top: -128px;
+    margin-top: -142px;
   }
 
   /* ram */
@@ -2159,7 +2174,7 @@
 
   /* camera */
   .product-z6-camera{
-    margin-bottom: 60px;
+    margin-bottom: 120px;
   }
 
   .product-z6-camera .product-z6-gb-title h3{
@@ -2214,50 +2229,59 @@
   .product-z6-camera-performance{
     margin-bottom: 60px;
   }
+  .product-z6-camera-performance .product-z6-gb-title h3{
+    margin-bottom: 68px;
+  }
   .camera-performance-wrap{
-    width: 750px;
+    width: 742px;
   }
   .night-mode-picture-img{
-    -o-background-size: 428px auto;
-       background-size: 428px auto;
-    width: 428px;
-    height: 539px;
+    -o-background-size: 495px auto;
+       background-size: 495px auto;
+    width: 495px;
+    height: 660px;
   }
   .camera-night-mode .camera-performance-text{
-    margin-left: 23px;
-    padding-top: 188px;
+    margin-left: 37px;
+    padding-top: 204px;
+  }
+  .video-pro-picture{
+    margin-bottom: 15px;
   }
   .camera-performance-text h3{
-    font-size: 30px;
-    margin-bottom: 12px;
+    font-size: 36px;
+    margin-bottom: 11px;
   }
-  .camera-performance-text p{
-    font-size: 18px;
-  }
+
   .video-picture-img{
-    -o-background-size: 556px auto;
-       background-size: 556px auto;
-    width: 556px;
-    height: 314px;
+    -o-background-size: 594px auto;
+       background-size: 594px auto;
+    width: 594px;
+    height: 446px;
   }
 
   .video-picture .video-picture-img{
-    margin-top: -23px;
+    margin-top: -30px;
+    border-radius: 14px;
+    margin-bottom: 15px;
   }
 
-  .camera-video .camera-performance-text{
-    padding: 36px 0 0 8px;
+  .camera-video .camera-performance-text h3, .camera-video-pro .camera-performance-text h3{
+    margin-bottom: 60px;
   }
 
-  .camera-video-pro .camera-performance-text h3{
-    margin-bottom: 23px;
+  .video-pro-picture-img1{
+    -o-background-size: 742px auto;
+       background-size: 742px auto;
+    width: 742px;
+    height: 559px;
   }
 
-  .video-pro-picture-img{
-    -o-background-size: 750px auto;
-       background-size: 750px auto;
-    width: 750px;
-    height: 416px;
+  .video-pro-picture-img2{
+    -o-background-size: 742px auto;
+       background-size: 742px auto;
+    width: 742px;
+    height: 557px;
   }
 
   /* detail */
@@ -2451,15 +2475,15 @@
 
   .performance-bg{
     height: 0;
-    padding-bottom: 61%;
+    padding-bottom: 59%;
   }
 
   .performance-bg .performance-bg-img{
     -o-background-size: 100% auto;
        background-size: 100% auto;
     height: auto;
-    padding-bottom: 78.66%;
-    margin-top: -25%;
+    padding-bottom: 91.08%;
+    margin-top: -20%;
   }
 
   .performance-box-wrap{
@@ -2696,22 +2720,26 @@
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
-    margin-bottom: 10%;
+    margin-bottom: 0;
   }
 
   .night-mode-picture .night-mode-picture-img{
     margin: 0 auto;
     width: 80.2%;
-    -o-background-size: 102% auto;
-       background-size: 102% auto;
+    -o-background-size: 100% auto;
+       background-size: 100% auto;
     height: 0;
-    padding-bottom: 99%;
+    padding-bottom: 107.2%;
+  }
+
+  .camera-performance-text h3 br{
+    display: none;
   }
 
   .camera-video .camera-performance-text,.camera-night-mode .camera-performance-text{
-    padding: 4% 0 0 0;
-    margin: 0 auto;
-    width: 80.2%;
+    padding: 0;
+    width: 100%;
+    margin: 0;
   }
 
   .camera-performance-text p br{
@@ -2725,43 +2753,57 @@
   .video-picture .video-picture-img{
     margin: 0 auto;
     width: 80.2%;
-    -o-background-size: 102% auto;
-       background-size: 102% auto;
+    -o-background-size: 100% auto;
+       background-size: 100% auto;
     height: 0;
-    padding-bottom: 47%;
+    padding-bottom: 60.6%;
+    border-radius: 0;
   }
 
-  .camera-performance-wrap.camera-video-pro{
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-    -webkit-flex-flow: column-reverse;
-       -moz-box-orient: vertical;
-       -moz-box-direction: reverse;
-        -ms-flex-flow: column-reverse;
-            flex-flow: column-reverse;
-  }
-
-  .video-pro-picture .video-pro-picture-img{
+  .video-pro-picture .video-pro-picture-img1{
     margin: 0 auto;
     width: 80.2%;
-    -o-background-size: 102% auto;
-       background-size: 102% auto;
+    -o-background-size: 100% auto;
+       background-size: 100% auto;
     height: 0;
-    padding-bottom: 45.5%;
+    padding-bottom: 60.6%;
+  }
+
+  .video-pro-picture .video-pro-picture-img2{
+    margin: 0 auto;
+    width: 80.2%;
+    -o-background-size: 100% auto;
+       background-size: 100% auto;
+    height: 0;
+    padding-bottom: 60.6%;
+  }
+
+  .video-pro-picture,.night-mode-picture,.video-picture .video-picture-img{
+    margin-bottom: 4.3%;
+  }
+
+  .camera-performance-wrap .camera-performance-text h3{
+    margin-bottom: 0;
   }
 
   .product-z6-camera,.product-z6-camera-performance{
-    margin-bottom: 10.6%;
+    margin-bottom: 17.3%;
+  }
+
+  .product-z6-camera-performance .product-z6-gb-title h3 {
+    text-align: center;
+    margin-bottom: 6%;
   }
 
   .camera-video-pro .camera-performance-text{
     width: 100%;
   }
 
-  .camera-video-pro .camera-performance-text h3{
-    padding: 4% 0 0 0;
+  .camera-performance-wrap .camera-performance-text h3{
     margin: 0 auto;
     width: 80.2%;
+    margin-bottom: 8.5%;
+    font-size: 40px;
   }
 
   .product-z6-all-detail{
@@ -2900,7 +2942,7 @@
   }
 
   .z6-color-desc h3,
-  .camera-performance-text h3{
+  .camera-performance-wrap .camera-performance-text h3{
     font-size: 30px;
   }
 
@@ -2949,7 +2991,7 @@
   }
 
   .z6-color-desc h3,
-  .camera-performance-text h3{
+  .camera-performance-wrap .camera-performance-text h3{
     font-size: 20px;
   }
 
@@ -3153,8 +3195,12 @@
     background-image: url(../img/img_retromovie_shot_mb_2x.jpg);
   }
 
-  .video-pro-picture-img{
+  .video-pro-picture-img1{
     background-image: url(../img/img_shot_shot_mb_2x.jpg);
+  }
+
+  .video-pro-picture-img2{
+    background-image: url(../img/img_shot_shot1_mb_2x.jpg);
   }
 }
 
@@ -3276,8 +3322,12 @@
     background-image: url(../img/img_retromovie_shot_mb.jpg);
   }
 
-  .video-pro-picture-img{
+  .video-pro-picture-img1{
     background-image: url(../img/img_shot_shot_mb.jpg);
+  }
+
+  .video-pro-picture-img2{
+    background-image: url(../img/img_shot_shot1_mb.jpg);
   }
 }
 

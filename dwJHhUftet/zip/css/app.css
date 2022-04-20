@@ -150,11 +150,11 @@
 /* performance cpu */
 
 .product-z6-performance{
-  margin-bottom: 150px;
+  margin-bottom: 80px;
 }
 
 .performance-bg{
-  height: 730px;
+  height: 923px;
   z-index: 1;
   position: relative;
 }
@@ -162,21 +162,21 @@
 .performance-bg-img{
   background-image: url(../img/img_qualomm_cpu.jpg);
   background-repeat: no-repeat;
-  -o-background-size: 1556px auto;
-     background-size: 1556px auto;
+  -o-background-size: 1692px auto;
+     background-size: 1692px auto;
   background-position: center center;
   width: 100%;
-  height: 730px;
+  height: 923px;
 }
 
 .performance-bg .performance-bg-img{
-  margin-top: 60px;
+  margin-top: -30px;
 }
 
 /* flashcharge */
 
 .product-z6-flashcharge{
-  margin-bottom: 120px;
+  margin-bottom: 160px;
 }
 
 .flashcharge-bg-img{
@@ -186,12 +186,11 @@
      background-size: 1200px auto;
   background-position: center center;
   width: 100%;
-  height: 1012px;
-  margin-top: -200px;
+  height: 1052px;
 }
 
 .flashcharge-bg .flashcharge-bg-img{
-  margin-top: -120px;
+  margin-top: -200px;
 }
 
 /* display */
@@ -380,37 +379,36 @@
 
   /* performance cpu */
   .product-z6-performance{
-    margin-bottom: 200px;
+    margin-bottom: 107px;
   }
 
   .performance-bg{
-    height: 973px;
+    height: 1231px;
   }
 
   .performance-bg-img{
-    height: 973px;
-    -o-background-size: 2074px auto;
-       background-size: 2074px auto;
+    height: 1231px;
+    -o-background-size: 2256px auto;
+       background-size: 2256px auto;
   }
 
   .performance-bg .performance-bg-img{
-    margin-top: 80px;
+    margin-top: 40px;
   }
 
   /* flashcharge */
   .product-z6-flashcharge{
-    margin-bottom: 160px;
+    margin-bottom: 213px;
   }
 
   .flashcharge-bg-img{
     -o-background-size: 1600px auto;
        background-size: 1600px auto;
-    height: 1349px;
-    margin-top: -266px;
+    height: 1403px;
   }
 
   .flashcharge-bg .flashcharge-bg-img{
-    margin-top: -160px;
+    margin-top: -266px;
   }
 
   /* display */
@@ -527,37 +525,36 @@
 
   /* performance cpu */
   .product-z6-performance{
-    margin-bottom: 113px;
+    margin-bottom: 60px;
   }
 
   .performance-bg{
-    height: 547px;
+    height: 693px;
   }
 
   .performance-bg-img{
-    height: 547px;
-    -o-background-size: 1167px auto;
-       background-size: 1167px auto;
+    height: 693px;
+    -o-background-size: 1269px auto;
+       background-size: 1269px auto;
   }
 
   .performance-bg .performance-bg-img{
-    margin-top: -45px;
+    margin-top: -23px;
   }
 
   /* flashcharge */
   .product-z6-flashcharge{
-    margin-bottom: 90px;
+    margin-bottom: 120px;
   }
 
   .flashcharge-bg-img{
     -o-background-size: 900px auto;
        background-size: 900px auto;
-    height: 759px;
-    margin-top: -150px;
+    height: 789px;
   }
 
   .flashcharge-bg .flashcharge-bg-img{
-    margin-top: -90px;
+    margin-top: -150px;
   }
 
   /* display */
