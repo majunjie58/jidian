@@ -623,22 +623,36 @@
 }
 
 .param-icon3{
-  background-image: url(../img/icon_sgs_display.png);
-}
-
-.param-icon4{
-  background-image: url(../img/icon_sgs_display.png);
-}
-
-.param-item-icon-only{
-  padding: 20px 6px;
-}
-
-.param-icon5{
   background-image: url(../img/icon_hdr_display.png);
   width: 171px;
   height: 40px;
 }
+
+.param-icon4{
+  background-image: url(../img/icon_sgs_display.png);
+  width: 150px;
+  height: 65px;
+}
+
+.param-item-icon-only{
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
 
 
 
@@ -1194,15 +1208,11 @@
   }
 
   .param-icon3{
-    background-image: url(../img/icon_sgs_display_2x.png);
+    background-image: url(../img/icon_hdr_display_2x.png);
   }
 
   .param-icon4{
     background-image: url(../img/icon_sgs_display_2x.png);
-  }
-
-  .param-icon5{
-    background-image: url(../img/icon_hdr_display_2x.png);
   }
 
   .title-gaming-img{
@@ -1504,13 +1514,14 @@
     margin-left: 16px;
   }
 
-  .param-item-icon-only{
-    padding: 26px 8px;
-  }
-  
-  .param-icon5{
+  .param-icon3{
     width: 228px;
     height: 53px;
+  }
+  
+  .param-icon4{
+    width: 200px;
+    height: 87px;
   }
 
   /* title gaming */
@@ -2021,14 +2032,15 @@
     font-size: 12px;
     margin-left: 9px;
   }
-
-  .param-item-icon-only{
-    padding: 15px 10px;
-  }
   
-  .param-icon5{
+  .param-icon3{
     width: 128px;
     height: 30px;
+  }
+
+  .param-icon4{
+    width: 113px;
+    height: 49px;
   }
 
   /* title gaming */
@@ -2611,7 +2623,7 @@
     width: 100%;
     height: 0;
     position: relative;
-    padding-bottom: 61.1%;
+    padding-bottom: 45.1%;
     top: 0;
     left: 0;
     margin-left: 0;
@@ -2648,13 +2660,14 @@
     margin-left: 16px;
   }
 
-  .param-item-icon-only{
-    padding: 20px 14px;
-  }
-
-  .param-icon5{
+  .param-icon3{
     width: 292px;
     height: 68px;
+  }
+
+  .param-icon4{
+    width: 256px;
+    height: 111px;
   }
 
   .product-z6-title-gaming,.product-z6-title-camera{
