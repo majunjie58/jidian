@@ -264,7 +264,7 @@
   })
 
   gsapFlashBenefitAnimation.from('.flash-benefit-item1', {
-    y: 150,
+    x: 150,
     opacity: 0,
     duration: 0.35
   }).from('.flash-benefit-item2', {
@@ -299,23 +299,23 @@
   })
 
   gsapTuvAnimation.from('.section-tuv-item:nth-child(1)', {
-    y: 100,
+    x: -50,
     opacity: 0,
     duration: 0.35
   }).from('.section-tuv-item:nth-child(2)', {
-    y: 100,
+    x: -50,
     opacity: 0,
     duration: 0.35
   }, '-=0.2').from('.section-tuv-item:nth-child(3)', {
-    y: 100,
+    x: -50,
     opacity: 0,
     duration: 0.35
   }, '-=0.2').from('.section-tuv-item:nth-child(4)', {
-    y: 100,
+    x: -50,
     opacity: 0,
     duration: 0.35
   }, '-=0.2').from('.section-tuv-item:nth-child(5)', {
-    y: 100,
+    x: -50,
     opacity: 0,
     duration: 0.35
   }, '-=0.2')
