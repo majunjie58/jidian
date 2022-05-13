@@ -264,7 +264,7 @@
   })
 
   gsapFlashBenefitAnimation.from('.flash-benefit-item1', {
-    x: 150,
+    y: 150,
     opacity: 0,
     duration: 0.35
   }).from('.flash-benefit-item2', {
@@ -361,9 +361,11 @@
 
   colorPictureGsap.from('.iqoolp-color .section-subtitle', {
     opacity: 0,
+    y: 150,
     duration: 1
   }).from('.section-color-descs', {
     opacity: 0,
+    y: 150,
     duration: 1
   }, '-=1').to('.color-black', {
     x: -270,
