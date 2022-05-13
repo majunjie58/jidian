@@ -359,7 +359,13 @@
     }
   })
 
-  colorPictureGsap.to('.color-black', {
+  colorPictureGsap.from('.iqoolp-color .section-subtitle', {
+    opacity: 0,
+    duration: 1
+  }).from('.section-color-descs', {
+    opacity: 0,
+    duration: 1
+  }, '-=1').to('.color-black', {
     x: -270,
     duration: 1
   }).to('.color-blue', {

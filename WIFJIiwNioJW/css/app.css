@@ -998,11 +998,11 @@
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  width: 1068px;
-  height: 702.9px;
+  width: 961px;
+  height: 632px;
   z-index: 2;
-  margin-left: 100px;
-  top: 380px;
+  margin-left: 90px;
+  top: 480px;
 }
 
 .gaming-sticky{
@@ -1036,25 +1036,25 @@
 .gaming-bg-picture-img{
   background-image: url(../images/kpl-img.jpg);
   background-repeat: no-repeat;
-  width: 1068px;
-  height: 702.9px;
+  width: 961px;
+  height: 632px;
   background-size: 100% auto;
-  transform: scale(3);
-  transform-origin: 38% 32%;
+  transform: scale(3.5);
+  transform-origin: 38% 38%;
 }
 
 .iqoolp-gaming .section-gaming-descs{
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 150px;
+  top: 200px;
 }
 
 .iqoolp-gaming .section-gaming-subtitle{
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 150px;
+  top: 280px;
 }
 
 .section-gaming-subtitle .section-subtitle-text{
@@ -2547,10 +2547,10 @@
   }
 
   .gaming-bg-picture{
-    width: 1424px;
-    height: 937.2px;
-    margin-left: 133px;
-    top: 506px;
+    width: 1281px;
+    height: 843px;
+    margin-left: 120px;
+    top: 640px;
   }
 
   .gaming-sticky{
@@ -2564,18 +2564,16 @@
   }
 
   .gaming-bg-picture-img{
-    width: 1424px;
-    height: 937.2px;
-    background-size: 100% auto;
-    transform: scale(3);
+    width: 1281px;
+    height: 843px;
   }
 
   .iqoolp-gaming .section-gaming-descs{
-    top: 200px;
+    top: 266px;
   }
 
   .iqoolp-gaming .section-gaming-subtitle{
-    top: 200px;
+    top: 373px;
   }
 
   .iqoolp-game-center{
@@ -3575,10 +3573,10 @@
   }
   
   .gaming-bg-picture{
-    width: 801px;
-    height: 937.1px;
-    margin-left: 74px;
-    top: 284px;
+    width: 720px;
+    height: 474px;
+    margin-left: 67px;
+    top: 360px;
   }
   
   .gaming-sticky{
@@ -3597,19 +3595,16 @@
   }
   
   .gaming-bg-picture-img{
-    width: 801px;
-    height: 937.1px;
-    background-size: 100% auto;
-    transform: scale(3);
-    transform-origin: 38% 17.5%;
+    width: 720px;
+    height: 474px;
   }
   
   .iqoolp-gaming .section-gaming-descs{
-    top: 112px;
+    top: 150px;
   }
   
   .iqoolp-gaming .section-gaming-subtitle{
-    top: 112px;
+    top: 210px;
   }
   
   .iqoolp-game-center{
