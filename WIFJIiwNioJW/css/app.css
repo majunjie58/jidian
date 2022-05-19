@@ -835,7 +835,8 @@
 
 .camera-slider-dots{
   position: absolute;
-  bottom: -52px;
+  font-size: 0;
+  bottom: -48px;
 }
 
 .slider-dot{
@@ -1261,6 +1262,7 @@
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: 0;
 }
 
 .color-desc-text{
@@ -2032,7 +2034,7 @@
   }
   
   .camera-slider-dots{
-    bottom: -69px;
+    bottom: -64px;
   }
   
   .slider-dot{
@@ -2701,7 +2703,7 @@
   }
   
   .camera-slider-dots{
-    bottom: -39px;
+    bottom: -36px;
   }
   
   .slider-dot{

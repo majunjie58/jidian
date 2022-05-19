@@ -1609,7 +1609,7 @@
                           </div>
                         </div>
                         <div class="camera-slider-dots">
-                          <span class="slider-dot"></span>
+                          <span class="slider-dot slider-dot--active"></span>
                           <span class="slider-dot"></span>
                         </div>
                         <div class="camera-slider-buttons">
@@ -1643,7 +1643,7 @@
                           </div>
                         </div>
                         <div class="camera-slider-dots">
-                          <span class="slider-dot"></span>
+                          <span class="slider-dot slider-dot--active"></span>
                           <span class="slider-dot"></span>
                           <span class="slider-dot"></span>
                           <span class="slider-dot"></span>
@@ -2126,19 +2126,20 @@
     <script class="J_replace_public"src="base/script/detail-pack-2019.js"></script>
     <script src="script/app.js"></script>
 
+
     <div class="fill-password" style="position: fixed;width: 100%;height: 100%;top: 0;left: 0;z-index:999;background-color: #fff;display: flex;justify-content: center;align-items: center;">
       <input class="fill-password-text" type="text" style="width: 200px;height:36px;border: 2px solid #000;border-radius: 0;outline: none;font-size: 20px;padding: 0 10px;">
       <button class="fill-password-button" style="width: 100px;height: 40px;background-color: #000;border:none;color: #fff;">确定</button>
-    </div>
+  </div>
 
-    <script>
-        $('.fill-password-button').click(function(){
-            let value = $('.fill-password-text').val();
-            if(value === '1221') {
-                $('.fill-password').hide();
-            }
-            
-        });
-    </script>
+  <script>
+      $('.fill-password-button').click(function(){
+          let value = $('.fill-password-text').val();
+          if(value === '1221') {
+              $('.fill-password').hide();
+          }
+          
+      });
+  </script>
 </body>
 </html>
