@@ -1,4 +1,14 @@
 @font-face{
+  font-family:HanyiVar-vivo-hwid-50;
+  src:url(./HanyiVar-vivo-hwid-50.woff2);
+  src:url(./HanyiVar-vivo-hwid-50.woff2) format("woff2"),
+      url(./HanyiVar-vivo-hwid-50.woff) format("woff"),
+      url(./HanyiVar-vivo-hwid-50.ttf) format("truetype");
+  font-style:normal;
+  font-weight: normal;
+}
+
+@font-face{
   font-family:HanyiVar-vivo-hwid-60;
   src:url(./HanyiVar-vivo-hwid-60.woff2);
   src:url(./HanyiVar-vivo-hwid-60.woff2) format("woff2"),
@@ -44,16 +54,6 @@
   font-style:normal;
   font-weight: normal;
 }
-@font-face{
-  font-family:HanyiVar-vivo-hwid-90;
-  src:url(./HanyiVar-vivo-hwid-90.woff2);
-  src:url(./HanyiVar-vivo-hwid-90.woff2) format("woff2"),
-      url(./HanyiVar-vivo-hwid-90.woff) format("woff"),
-      url(./HanyiVar-vivo-hwid-90.ttf) format("truetype");
-  font-style:normal;
-  font-weight: normal;
-}
-
 .product-main-content{
   background-color: #000;
 }
@@ -227,6 +227,7 @@
   color: #fff;
   line-height: 1.25;
   margin-bottom: 36px;
+  padding-top: 0.1em;
 }
 
 .section-content-text h4 sup{
@@ -506,7 +507,7 @@
      background-size: 1920px auto;
   width: 100%;
   background-position: top center;
-  height: 1100px;
+  height: 860px;
 }
 
 .section-cpu .section-params-wrap{
@@ -2193,7 +2194,7 @@
   .section-cpu-img{
     -o-background-size: 2560px auto;
        background-size: 2560px auto;
-    height: 1466px;
+    height: 1146px;
   }
 
   .section-cpu .section-params-wrap{
@@ -3022,7 +3023,7 @@
   .section-cpu-img{
     -o-background-size: 1440px auto;
        background-size: 1440px auto;
-    height: 825px;
+    height: 645px;
   }
 
   .section-cpu .section-params-wrap{
@@ -4126,6 +4127,10 @@
             justify-content: space-between;
   }
 
+  .battery-params-box2 .params-title{
+    padding-top: 8px;
+  }
+
   .battery-params-box2 .section-params-item:nth-child(1) .params-title{
     font-size: 24px;
   }
@@ -4193,9 +4198,9 @@
     left: 0;
     margin: 0;
     top: 0;
-    padding-top: 0px;
+    padding-top: 50px;
     height: 0;
-    padding-bottom: 132%;
+    padding-bottom: 112%;
   }
 
   .section-screen-img{
@@ -5193,6 +5198,10 @@
     font-size: 20px;
   }
 
+  .battery-params-box2 .params-title{
+    padding-top: 7px;
+  }
+
   /* cooling */
   .section-cooling{
     padding-top: 59px;
@@ -5214,6 +5223,10 @@
 
   .section-screen .section-content-title{
     margin-bottom: 34px;
+  }
+
+  .section-screen-picture{
+    padding-top: 42px;
   }
 
   .screen-benefit-list{
@@ -5832,6 +5845,10 @@
     font-size: 48px;
   }
 
+  .battery-params-box2 .params-title{
+    padding-top: 16px;
+  }
+
   /* cooling */
   .section-cooling{
     padding-top: 140px;
@@ -5853,6 +5870,10 @@
 
   .section-screen .section-content-title{
     margin-bottom: 80px;
+  }
+
+  .section-screen-picture{
+    padding-top: 100px;
   }
 
   .screen-benefit-list{
