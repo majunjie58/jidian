@@ -1349,7 +1349,7 @@
 .list-item-text{
   color: #a1a1a1;
   font-family:HanyiVar-vivo-hwid-60;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.6;
   text-align: center;
 }
@@ -1598,6 +1598,7 @@
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+  white-space: nowrap;
 }
 
 .material-text h4{
@@ -2538,7 +2539,7 @@
   }
 
   .list-item-text{
-    font-size: 34px;
+    font-size: 32px;
   }
 
   /* train */
@@ -3341,7 +3342,7 @@
   }
 
   .list-item-text{
-    font-size: 19px;
+    font-size: 18px;
   }
 
   /* train */
